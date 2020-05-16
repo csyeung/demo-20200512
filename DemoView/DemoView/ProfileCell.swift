@@ -16,7 +16,6 @@ class ProfileCell: UITableViewCell {
     @IBOutlet weak var languageLabel: UILabel!
     @IBOutlet weak var hobbiesLabel: UILabel!
     @IBOutlet weak var hometownLabel: UILabel!
-    @IBOutlet weak var summaryLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -36,7 +35,6 @@ class ProfileCell: UITableViewCell {
         self.hometownLabel.text = data.hometown
         self.languageLabel.text = data.language
         self.nickNameLabel.text = data.nickName
-        self.summaryLabel.text = data.summary
         
         if let url = URL(string: data.imageLink) {
             self.profileImage.kf.setImage(with: url)

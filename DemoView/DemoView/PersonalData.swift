@@ -42,7 +42,7 @@ class PersonalData {
             entity.nickName = subdata["nickName"].string ?? ""
             entity.lastName = subdata["lastName"].string ?? ""
             entity.firstName = subdata["firstName"].string ?? ""
-            entity.language = subdata["language"].string ?? ""
+            entity.language = subdata["languages"].string ?? ""
             entity.hobbies = subdata["hobbies"].string ?? ""
             entity.hometown = subdata["hometown"].string ?? ""
             entity.imageLink = subdata["imageLink"].string ?? ""
