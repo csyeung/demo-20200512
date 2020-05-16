@@ -8,6 +8,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let data = PersonalData()
+    var summaryToPass: String?
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -39,7 +40,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         
-        let summary = data.entities[indexPath.row].summary 
+        self.summaryToPass = data.entities[indexPath.row].summary
+        self.performSegue(withIdentifier: "ModalSegue", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? ModalViewController {
+            vc.summary = self.summaryToPass
+        }
     }
 }
 

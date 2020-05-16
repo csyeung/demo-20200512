@@ -20,6 +20,7 @@
 		AB316C46246C07D000EE362C /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C45246C07D000EE362C /* PersonalData.swift */; };
 		AB316C4B246FB78C00EE362C /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C49246FB78C00EE362C /* ProfileCell.swift */; };
 		AB316C4C246FB78C00EE362C /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB316C4A246FB78C00EE362C /* ProfileCell.xib */; };
+		AB316C54246FF79700EE362C /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C53246FF79700EE362C /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		AB316C45246C07D000EE362C /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
 		AB316C49246FB78C00EE362C /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		AB316C4A246FB78C00EE362C /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		AB316C53246FF79700EE362C /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				AB316C45246C07D000EE362C /* PersonalData.swift */,
 				AB316C49246FB78C00EE362C /* ProfileCell.swift */,
 				AB316C4A246FB78C00EE362C /* ProfileCell.xib */,
+				AB316C53246FF79700EE362C /* ModalViewController.swift */,
 			);
 			path = DemoView;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				AB316C27246C05F400EE362C /* AppDelegate.swift in Sources */,
 				AB316C29246C05F400EE362C /* SceneDelegate.swift in Sources */,
 				AB316C46246C07D000EE362C /* PersonalData.swift in Sources */,
+				AB316C54246FF79700EE362C /* ModalViewController.swift in Sources */,
 				AB316C4B246FB78C00EE362C /* ProfileCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
