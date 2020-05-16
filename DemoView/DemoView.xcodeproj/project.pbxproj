@@ -18,6 +18,8 @@
 		AB316C42246C06C900EE362C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = AB316C41246C06C900EE362C /* SwiftyJSON */; };
 		AB316C44246C074E00EE362C /* mates.json in Resources */ = {isa = PBXBuildFile; fileRef = AB316C43246C074E00EE362C /* mates.json */; };
 		AB316C46246C07D000EE362C /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C45246C07D000EE362C /* PersonalData.swift */; };
+		AB316C4B246FB78C00EE362C /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C49246FB78C00EE362C /* ProfileCell.swift */; };
+		AB316C4C246FB78C00EE362C /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB316C4A246FB78C00EE362C /* ProfileCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		AB316C34246C05F700EE362C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB316C43246C074E00EE362C /* mates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mates.json; sourceTree = "<group>"; };
 		AB316C45246C07D000EE362C /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
+		AB316C49246FB78C00EE362C /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		AB316C4A246FB78C00EE362C /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				AB316C31246C05F700EE362C /* LaunchScreen.storyboard */,
 				AB316C34246C05F700EE362C /* Info.plist */,
 				AB316C45246C07D000EE362C /* PersonalData.swift */,
+				AB316C49246FB78C00EE362C /* ProfileCell.swift */,
+				AB316C4A246FB78C00EE362C /* ProfileCell.xib */,
 			);
 			path = DemoView;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 				AB316C33246C05F700EE362C /* LaunchScreen.storyboard in Resources */,
 				AB316C30246C05F700EE362C /* Assets.xcassets in Resources */,
 				AB316C2E246C05F400EE362C /* Main.storyboard in Resources */,
+				AB316C4C246FB78C00EE362C /* ProfileCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +172,7 @@
 				AB316C27246C05F400EE362C /* AppDelegate.swift in Sources */,
 				AB316C29246C05F400EE362C /* SceneDelegate.swift in Sources */,
 				AB316C46246C07D000EE362C /* PersonalData.swift in Sources */,
+				AB316C4B246FB78C00EE362C /* ProfileCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
