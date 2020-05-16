@@ -19,6 +19,7 @@ class ProfileCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+
         // Initialization code
     }
 
@@ -37,7 +38,10 @@ class ProfileCell: UITableViewCell {
         self.nickNameLabel.text = data.nickName
         
         if let url = URL(string: data.imageLink) {
-            self.profileImage.kf.setImage(with: url)
+            self.profileImage.kf.indicatorType = .activity
+            DispatchQueue.main.async {
+                self.profileImage.kf.setImage(with: url)
+            }
         }
     }
     
