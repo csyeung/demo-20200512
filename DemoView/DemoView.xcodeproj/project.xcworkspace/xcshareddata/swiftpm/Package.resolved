@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "FoldingCell",
+        "repositoryURL": "https://github.com/Ramotion/folding-cell",
+        "state": {
+          "branch": null,
+          "revision": "5cf01ed2b48eac4385a599e9f40f438655bf4147",
+          "version": "5.0.2"
+        }
+      },
+      {
         "package": "Kingfisher",
         "repositoryURL": "https://github.com/onevcat/Kingfisher",
         "state": {

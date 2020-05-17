@@ -21,6 +21,9 @@
 		AB316C4B246FB78C00EE362C /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C49246FB78C00EE362C /* ProfileCell.swift */; };
 		AB316C4C246FB78C00EE362C /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB316C4A246FB78C00EE362C /* ProfileCell.xib */; };
 		AB316C54246FF79700EE362C /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C53246FF79700EE362C /* ModalViewController.swift */; };
+		AB316C5724710BAB00EE362C /* FoldingCell in Frameworks */ = {isa = PBXBuildFile; productRef = AB316C5624710BAB00EE362C /* FoldingCell */; };
+		AB316C5A24710C5B00EE362C /* ProfileFoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB316C5824710C5B00EE362C /* ProfileFoldingCell.swift */; };
+		AB316C5B24710C5B00EE362C /* ProfileFoldingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB316C5924710C5B00EE362C /* ProfileFoldingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,8 @@
 		AB316C49246FB78C00EE362C /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		AB316C4A246FB78C00EE362C /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
 		AB316C53246FF79700EE362C /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		AB316C5824710C5B00EE362C /* ProfileFoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFoldingCell.swift; sourceTree = "<group>"; };
+		AB316C5924710C5B00EE362C /* ProfileFoldingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileFoldingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 			files = (
 				AB316C42246C06C900EE362C /* SwiftyJSON in Frameworks */,
 				AB316C3F246C06A600EE362C /* Kingfisher in Frameworks */,
+				AB316C5724710BAB00EE362C /* FoldingCell in Frameworks */,
 				AB316C3C246C065700EE362C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +90,8 @@
 				AB316C49246FB78C00EE362C /* ProfileCell.swift */,
 				AB316C4A246FB78C00EE362C /* ProfileCell.xib */,
 				AB316C53246FF79700EE362C /* ModalViewController.swift */,
+				AB316C5824710C5B00EE362C /* ProfileFoldingCell.swift */,
+				AB316C5924710C5B00EE362C /* ProfileFoldingCell.xib */,
 			);
 			path = DemoView;
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 				AB316C3B246C065700EE362C /* Alamofire */,
 				AB316C3E246C06A600EE362C /* Kingfisher */,
 				AB316C41246C06C900EE362C /* SwiftyJSON */,
+				AB316C5624710BAB00EE362C /* FoldingCell */,
 			);
 			productName = DemoView;
 			productReference = AB316C23246C05F400EE362C /* DemoView.app */;
@@ -141,6 +150,7 @@
 				AB316C3A246C065700EE362C /* XCRemoteSwiftPackageReference "Alamofire" */,
 				AB316C3D246C06A600EE362C /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				AB316C40246C06C900EE362C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				AB316C5524710BAB00EE362C /* XCRemoteSwiftPackageReference "folding-cell" */,
 			);
 			productRefGroup = AB316C24246C05F400EE362C /* Products */;
 			projectDirPath = "";
@@ -159,6 +169,7 @@
 				AB316C44246C074E00EE362C /* mates.json in Resources */,
 				AB316C33246C05F700EE362C /* LaunchScreen.storyboard in Resources */,
 				AB316C30246C05F700EE362C /* Assets.xcassets in Resources */,
+				AB316C5B24710C5B00EE362C /* ProfileFoldingCell.xib in Resources */,
 				AB316C2E246C05F400EE362C /* Main.storyboard in Resources */,
 				AB316C4C246FB78C00EE362C /* ProfileCell.xib in Resources */,
 			);
@@ -177,6 +188,7 @@
 				AB316C46246C07D000EE362C /* PersonalData.swift in Sources */,
 				AB316C54246FF79700EE362C /* ModalViewController.swift in Sources */,
 				AB316C4B246FB78C00EE362C /* ProfileCell.swift in Sources */,
+				AB316C5A24710C5B00EE362C /* ProfileFoldingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +412,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		AB316C5524710BAB00EE362C /* XCRemoteSwiftPackageReference "folding-cell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ramotion/folding-cell";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -417,6 +437,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AB316C40246C06C900EE362C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		AB316C5624710BAB00EE362C /* FoldingCell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB316C5524710BAB00EE362C /* XCRemoteSwiftPackageReference "folding-cell" */;
+			productName = FoldingCell;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
